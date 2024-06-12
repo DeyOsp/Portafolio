@@ -1,1 +1,3 @@
 # Portafolio
+
+¡Bienvenido a mi portafolio digital! Este proyecto representa mi dedicación como desarrollador frontend junior. A través de HTML, CSS y JavaScript, he creado esta página web para presentar mi trabajo y habilidades en el mundo del desarrollo web. Aunque soy junior, he invertido tiempo y esfuerzo para ofrecer una experiencia web profesional y atractiva. Explora mi portafolio y descubre cómo mi pasión por la programación se refleja en cada detalle de este proyecto.
