@@ -92,7 +92,7 @@ span {
 }
 
 #info-container2 button:hover {
-  background-color: #d47d42;
+  background-color: #5e5a63;
   transition: 0.2s;
 }
 
@@ -101,9 +101,11 @@ span {
 #exp-container {
   display: flex;
   width: 100%;
-  height: 2000px;
+  height: 1500px;
   background: linear-gradient(to bottom, #5d5962 0%, #2d2933 100%);
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #exp-title {
@@ -129,6 +131,128 @@ span {
   margin-top: 70px;
   border: 1px solid whitesmoke;
   width: 100%;
+}
+
+#exp {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+#exp #exp-date {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  color: whitesmoke;
+  padding-left: 80px;
+}
+
+#exp #exp-info {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  flex-direction: column;
+  color: #dbd9dd;
+  font-size: 20px;
+  padding-right: 80px;
+}
+
+#exp #exp-info h4 {
+  color: #f7914d;
+}
+
+#exp-container span {
+  margin-bottom: 30px;
+  border: 1px solid whitesmoke;
+  width: 92%;
+}
+
+#exp-container button {
+  margin-top: 10px;
+  padding: 15px 0px;
+  border-radius: 5px;
+  width: 40%;
+  border: none;
+  background-color: #f7914d;
+  font-size: 18px;
+  color: whitesmoke;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#exp-container button:hover {
+  background-color: whitesmoke;
+  color: rgb(29, 29, 29);
+  transition: 0.2s;
+}
+
+/* #exp span {
+  margin-top: 70px;
+  border: 1px solid whitesmoke;
+  width: 100%;
+} */
+
+/* Portafolio */
+
+#portafolio-container {
+  display: flex;
+  background-color: #2d2933;
+  width: 100%;
+  height: 800px;
+  flex-direction: column;
+}
+
+#portafolio-container #portafolio-title {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+#portafolio-container #portafolio-title p {
+  font-size: 20px;
+  padding-top: 28px;
+}
+
+#portafolio-container #portafolio-contenido {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+#portafolio-container #contenido {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+
+#contenido #proyecto {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 40px 40px;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 20px;
+}
+
+#contenido #proyecto a{
+  color: #817D87;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#contenido #proyecto a:hover{
+  color: #545158;
+  text-decoration: underline;
+  transition: 0.3s;
 }
 
 
